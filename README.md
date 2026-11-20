@@ -21,8 +21,8 @@ src/sba_mc/download.py   download the FOIA files from data.sba.gov
 src/sba_mc/data.py       clean loans -> lender x FY units (load_data), amounts (load_amounts)
 src/sba_mc/simulate.py   vectorised Monte Carlo functions (tested)
 scripts/build_data.py    end-to-end data build + data-sheet numbers
-notebooks/               one notebook per step (to come)
-docs/                    data sheet, model note, reports
+notebooks/               one notebook per step (01 = step 1: checks, descriptives, model, sufficiency)
+docs/                    data sheet, model note (step 1), figures, reports
 tests/                   pytest
 ```
 

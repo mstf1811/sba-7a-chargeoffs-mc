@@ -9,4 +9,5 @@ openpyxl>=3.1
 pyarrow>=15
 pytest>=8
 jupyter>=1.0
+-e .   # installs src/sba_mc so notebooks can `import sba_mc`
 # optional (step 5 bonus): pymc>=5
